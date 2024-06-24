@@ -1,0 +1,17 @@
+console.log("Menu");
+console.log("1.Ice Americano");
+console.log("2.cafe Latte");
+
+var choice = parseInt(prompt("메뉴를 선택해 주세요"));
+
+console.log(choice +"번 메뉴를 선택했습니다.");
+
+if(choice == 1){
+    console.log("아이스 아메리카노 1500원");
+}
+else if (choice == 2){
+    console.log("카페 라떼는 1700원");
+}
+else{
+    console.log("죄송합니다. 그런 메뉴는 없습니다.");
+}
